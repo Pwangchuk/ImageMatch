@@ -1,0 +1,63 @@
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:elevation="4dp"
+    android:padding="4dp"
+    tools:context="com.example.plwang13.androidpicturematch.MainActivity">
+
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="@dimen/big_text"
+        android:background="@color/red"
+        android:layout_column="1"
+        android:layout_row="5"/>
+
+    <ImageButton
+        android:id="@+id/large1" style="@style/TileButton"
+        android:layout_column="0" android:layout_row="0"/>
+    <ImageButton android:id="@+id/large2" style="@style/TileButton"
+        android:layout_column="1" android:layout_row="0"/>
+    <ImageButton android:id="@+id/large3" style="@style/TileButton"
+        android:layout_column="2" android:layout_row="0"/>
+    <ImageButton android:id="@+id/large4" style="@style/TileButton"
+        android:layout_column="3" android:layout_row="0"/>
+    <ImageButton android:id="@+id/large5" style="@style/TileButton"
+        android:layout_column="0" android:layout_row="1"/>
+    <ImageButton android:id="@+id/large6" style="@style/TileButton"
+        android:layout_column="1" android:layout_row="1"/>
+    <ImageButton android:id="@+id/large7" style="@style/TileButton"
+        android:layout_column="2" android:layout_row="1"/>
+    <ImageButton android:id="@+id/large8" style="@style/TileButton"
+        android:layout_column="3" android:layout_row="1"/>
+    <ImageButton android:id="@+id/large9" style="@style/TileButton"
+        android:layout_column="0" android:layout_row="2"/>
+    <ImageButton android:id="@+id/large10" style="@style/TileButton"
+        android:layout_column="1" android:layout_row="2"/>
+    <ImageButton android:id="@+id/large11" style="@style/TileButton"
+        android:layout_column="2" android:layout_row="2"/>
+    <ImageButton android:id="@+id/large12" style="@style/TileButton"
+        android:layout_column="3" android:layout_row="2"/>
+    <ImageButton android:id="@+id/large13" style="@style/TileButton"
+        android:layout_column="0" android:layout_row="3"/>
+    <ImageButton android:id="@+id/large14" style="@style/TileButton"
+        android:layout_column="1" android:layout_row="3"/>
+    <ImageButton android:id="@+id/large15" style="@style/TileButton"
+        android:layout_column="2" android:layout_row="3"/>
+    <ImageButton android:id="@+id/large16" style="@style/TileButton"
+        android:layout_column="3" android:layout_row="3"/>
+    <ImageButton android:id="@+id/large17" style="@style/TileButton"
+    android:layout_column="0" android:layout_row="4"/>
+    <ImageButton android:id="@+id/large18" style="@style/TileButton"
+        android:layout_column="1" android:layout_row="4"/>
+    <ImageButton android:id="@+id/large19" style="@style/TileButton"
+        android:layout_column="2" android:layout_row="4"/>
+    <ImageButton android:id="@+id/large20" style="@style/TileButton"
+        android:layout_column="3" android:layout_row="4"/>
+
+
+</GridLayout>

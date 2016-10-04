@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:drawable="@drawable/image1"
+        android:maxLevel="0" />
+    <item
+        android:drawable="@drawable/image0"
+        android:maxLevel="1" />
+    <item
+        android:drawable="@drawable/image7"
+        android:maxLevel="2" />
+    <item
+        android:drawable="@drawable/image5"
+        android:maxLevel="3" />
+    <item
+        android:drawable="@drawable/image6"
+        android:maxLevel="4" />
+    <item
+        android:drawable="@drawable/image3"
+        android:maxLevel="5" />
+    <item
+        android:drawable="@drawable/image4"
+        android:maxLevel="6" />
+    <item
+        android:drawable="@drawable/image2"
+        android:maxLevel="7" />
+
+</selector>
